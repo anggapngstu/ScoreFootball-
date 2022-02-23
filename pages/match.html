@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SoccerFootball.co.id</title>
+   <link rel="manifest" href="/manifest.json">
+   <link rel="stylesheet" href="../css/materialize.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--Favicon web-->
+   <link rel="shortcut icon" href="/images/favicon-32x32.png">
+   <!--favicon iOs-->
+   <link rel="apple-touch-icon" href="/images/favicon-180x180.png">
+   <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+   
+   <!-- navigation -->
+   <nav class="nav-extended navbar-fixed nav-center light-blue lighten-1" role="navigation">
+      <div class="nav-wrapper container">
+         <a href="#match" class="brand-logo" id="logo-container"><i class="large material-icons md-48">sports_soccer</i><i>sf.co.id</i></a>
+         <a href="/" class="sidenav-trigger" data-target="nav-mobile"><i class="material-icons">arrow_back</i></a>
+
+         <ul class="topnav right hide-on-med-and-down">
+            <a href="/"><i class="large material-icons">home</i></a>
+         </ul>
+         <ul class="sidenav" id="nav-mobile"></ul>  
+      </div>
+      <div class="nav-content">
+         <ul class="tabs">
+            <li class="tab col s4 l4 "><a href="#homeTeam">HOME</a></li>
+            <li class="tab col s4 l4"><a class="active" href="#match">MATCH</a></li>
+            <li class="tab col s4 l4"><a href="#awayTeam">AWAY</a></li>
+         </ul>
+      </div>
+   </nav>
+
+   <!-- Body Content -->
+   <div id="body-content">
+      <div id="homeTeam" class="col s12">please wait friends score football.....</div>
+      <div id="match" class="col s12">please wait friends score football......</div>
+      <div id="awayTeam" class="col s12">please wait friends score football......</div>
+   </div>
+   
+
+   <div class="fixed-action-btn">
+      <a id="save" class="btn-floating btn-large red">
+         <i class="large material-icons blue-grey darken-4">save</i>
+      </a>
+   </div>
+
+   <!-- footer -->
+   <footer class="page-footer light-blue lighten-1">
+      <div class="container">
+      <div class="row">
+         <div class="col l6 s12">
+            <p class="white-text">SCOREFOOTBALL.CO.ID</p>
+            <p class="grey-text text-lighten-4">Copyright is protected by law. It is prohibited to publish, broadcast, rewrite, or distribute information from this site without seeking written permission from ScoreFootball.co.id</p>
+      </div>
+
+         <div class="col l4 offset-l2 s12">
+				<div class="boxTitle">Follow me</div>
+				<div class="boxContent">
+				<div class="boxContent">
+               <a href="https://line.me/id/" target="_blank" class="boxItem">
+						<div class="icon icon--tw"></div>
+						<div class="linkText"><p class="grey-text text-lighten-4">Line</p></div>
+					</a>
+					<a href="https://www.instagram.com" target="_blank" class="boxItem">
+						<div class="icon icon--in"></div>
+						<div class="linkText"><p class="grey-text text-lighten-4">Instagram</p></div>
+					</a>
+			</div>
+			
+         </div>
+      </div>
+      </div>
+      <div class="footer-copyright center-align">
+      <div class="container">
+      Copyright © 2020 ScoreFootball.co.id x Angga Pangestu
+      </div>
+      </div>
+   </footer>  
+
+   <script src="/js/materialize.min.js"></script>
+   <script src="/js/registration.js"></script>
+   <script src="/js/data/idb.js"></script>
+   <script src="/js/data/db.js"></script>
+   <script src="/js/data/api.js"></script>
+   <script src="/js/match.js"></script>
+</body>
+</html>

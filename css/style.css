@@ -1,0 +1,119 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.score {
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.home {
+    margin-left: 30px;
+}
+
+.away {
+    margin-right: 30px;
+}
+
+.homehead {
+    margin-left: 25px;
+}
+
+.awayhead {
+    margin-right: 27px;
+}
+
+.abs {
+    position: absolute;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
+nav.nav-center ul {
+    text-align: center;
+}
+
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+.tabs .tab a {
+    color: #29b6f6;
+}
+
+.tabs .tab a:hover {
+    background-color: #b3e5fc;
+    color: #29b6f6;
+}
+
+.tabs .tab a.active {
+    background-color: #b3e5fc;
+    color: #29b6f6;
+}
+
+.tabs .indicator {
+    background-color: #29b6f6;
+}
+
+
+.box--social{
+    grid-area : social;
+    grid-row-start: social;
+    grid-row-end: social;
+    grid-column-start: social;
+    grid-column-end: social;
+}
+
+.boxTitle {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 0 8px 8px;
+}
+
+.box--social .boxContent {
+    max-width: 140px;
+}
+
+.boxItem {
+    display: flex;
+    padding: 0 8px;
+    margin-right: 8px;
+    color: #bebebe;
+    align-items: center;
+    max-width: 120px;
+    line-height: 16px;
+    min-height: 32px;
+    break-inside: avoid;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 8px 8px 8px 0;
+    background-color: #bebebe;
+    background-size: 100%;
+}
+
+.icon--tw {
+    background: url(/images/icons/ln.png) no-repeat 50% 50%;
+
+}
+
+.icon--in {
+    background: url(/images/icons/in.png) no-repeat 50% 50%;
+}
